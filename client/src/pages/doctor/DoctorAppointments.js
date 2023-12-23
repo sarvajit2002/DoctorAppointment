@@ -86,7 +86,7 @@ function DoctorAppointments() {
                 <div className="d-flex">
                     {record.status === 'pending' && (
                     <div className='d-flex'>
-                      <button className='btn btn-success' onClick={() => handleStatus(record,'Approved')}>Approved</button>
+                      <button className='btn btn-success' onClick={() => handleStatus(record,'Approved')}>Approve</button>
                       <button className='btn btn-danger ms-2' onClick={() => handleStatus(record,'reject')}>Reject</button>
                     </div>
                     )}
